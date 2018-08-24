@@ -18,7 +18,7 @@ function nowServing(katzDeliLine) {
 function currentLine(line) {
   var i = line.length;
   if (i > 0) {
-    for (let n = 0; n < i; n++){
+    for (n = 0; n < i; n++){
       let arrayElement = line[i];
       arrayElement = (i + 1) + ". " + arrayElement;
       line[i] = arrayElement;
