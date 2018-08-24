@@ -19,8 +19,9 @@ function currentLine(line) {
   var i = line.length;
   if (i > 0) {
     for (let n = 0; n < i; n++){
-      let arrayElement = line[i]
+      let arrayElement = line[i];
       arrayElement = (i + 1) + ". " + arrayElement;
+      line[i] = arrayElement;
     }
     return `The line is currently: ${line}`;
   }
