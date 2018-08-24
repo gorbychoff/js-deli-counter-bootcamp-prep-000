@@ -20,7 +20,7 @@ function currentLine(line) {
   if (i > 0) {
     for (let n = 0; n < i; n++){
       let arrayElement = line[n];
-      arrayElement = (n + 1) + ". " + arrayElement + " ";
+      arrayElement = " " + (n + 1) + ". " + arrayElement;
       line[n] = arrayElement;
     }
     
