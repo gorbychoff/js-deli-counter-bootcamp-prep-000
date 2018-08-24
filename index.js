@@ -21,11 +21,13 @@ function currentLine(line) {
     for (let n = 0; n < i; n++){
       if (n === 0) {
       let arrayElement = line[n];
-      arrayElement = " " + (n + 1) + ". " + arrayElement;
+      arrayElement = (n + 1) + ". " + arrayElement;
       line[n] = arrayElement;
       }
       else {
-        
+      let arrayElement = line[n];
+      arrayElement = " " + (n + 1) + ". " + arrayElement;
+      line[n] = arrayElement;        
       }
     }
     
