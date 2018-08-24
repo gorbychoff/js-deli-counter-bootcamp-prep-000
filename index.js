@@ -14,3 +14,12 @@ function nowServing(katzDeliLine) {
     return "There is nobody waiting to be served!"
   }
 }
+
+function currentLine(line) {
+  var i = line.length;
+  while (i > 0) {
+  
+  return `The line is currently: ${line[} `;
+  }
+  return "The line is currently empty."
+}
